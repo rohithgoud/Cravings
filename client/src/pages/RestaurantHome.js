@@ -21,14 +21,14 @@ const RestaurantHome = () => {
         <input className='w-[100%] px-2 py-3 rounded-3xl bg-gray-200 outline-none text-gray-80' type='text'  placeholder='Search'/>
        </div>
 <div className='pl-1'><h1 className='text-2xl lg:text-4xl mb-2 font-semibold'>GreenPark biryani house</h1>
-<p className='text-md text-gray-700'>Mattwada, 1km</p></div>
+</div>
 <div className='flex pl-1'>
-<p className='text-md mr-1 text-gray-700 font-semibold md:mt-2'>4★</p>
+<p className='text-md mr-1 text-green-600 font-semibold md:mt-2'>4★</p>
 <p className='text-md text-gray-700 md:mt-2'>20K Ratings</p>
 </div>
 </div>
 <h2 className='text-xl lg:text-2xl my-5 font-semibold'>Picked for you</h2>
-<div className='grid lg:grid-cols-4 md:grid-cols-3 gap-2 md:gap-6 grid-cols-2 lg:gap-10'>
+<div className='grid lg:grid-cols-4 md:grid-cols-3 gap-3 md:gap-6 grid-cols-2 lg:gap-10'>
 <CardRe img={url3} />
 <CardRe img={url3} />
 <CardRe img={url4} />
@@ -36,7 +36,7 @@ const RestaurantHome = () => {
 </div>
 
 <h2 className='text-xl lg:text-2xl my-4 font-semibold'>Starters</h2>
-<div className='grid lg:grid-cols-4 md:grid-cols-3  md:gap-6 grid-cols-2 lg:gap-10'>
+<div className='grid lg:grid-cols-4 md:grid-cols-3 gap-3 md:gap-6 grid-cols-2 lg:gap-10'>
 <CardRe img={url2} />
 <CardRe img={url3} />
 <CardRe img={url4} />
@@ -45,7 +45,7 @@ const RestaurantHome = () => {
 
 
 <h2 className='text-xl lg:text-2xl my-4 font-semibold'>Main Course</h2>
-<div className='grid lg:grid-cols-4 md:grid-cols-3  md:gap-6 grid-cols-2 lg:gap-10'>
+<div className='grid lg:grid-cols-4 md:grid-cols-3 gap-3 md:gap-6 grid-cols-2 lg:gap-10'>
 <CardRe img={url3} />
 <CardRe img={url3} />
 <CardRe img={url3} />
@@ -54,7 +54,7 @@ const RestaurantHome = () => {
 </div>
 
 <h2 className='text-xl lg:text-2xl my-4 font-semibold'>Desserts</h2>
-<div className='grid lg:grid-cols-4 md:grid-cols-3  md:gap-6 grid-cols-2 lg:gap-10'>
+<div className='grid lg:grid-cols-4 md:grid-cols-3 gap-3 md:gap-6 grid-cols-2 lg:gap-10'>
 <CardRe img={url4} />
 <CardRe img={url4} />
 <CardRe img={url4} />

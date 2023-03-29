@@ -14,7 +14,7 @@ const Card = () => {
       
 <div className=" bg-white mb-6  ">
     <Link to='/restauranthome'>
-        <img  className='rounded-md' src='https://media.istockphoto.com/id/1086974196/photo/keema-or-kheema-biryani-fragrant-and-spicy-minced-lamb-or-goat-or-chicken-cooked-in-range-of.jpg?s=612x612&w=0&k=20&c=CSx2OuaMm0NtRKcDvCx0yME8Dd5J7OdNYuKCQME6cMk=' alt="" />
+        <img  className='rounded-md' src='https://media.istockphoto.com/id/1086974196/photo/keema-or-kheema-biryani-fragrant-and-spicy-minced-lamb-or-goat-or-chicken-cooked-in-range-of.jpg?s=612x612&w=0&k=20&c=CSx2OuaMm0NtRKcDvCx0yME8Dd5J7OdNYuKCQME6cMk=' alt=""  loading='lazy'/>
     </Link>
     <div className="p-2">
         <Link to='/restauranthome'>
