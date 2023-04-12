@@ -3,19 +3,22 @@ import { Toaster,toast} from 'react-hot-toast'
 import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-
+import {useDispatch} from 'react-redux'
+import { addToCart } from '../redux/CartSlice'
 
 const FoodPage = () => {
   const [add, setAdd] = useState(1)
   const [data, setData] = useState(0)
   const [toggle , setToggle] = useState(false)
+ const dispatch = useDispatch();
+ let price = 200;
 
- 
-
+                  
 const handleChange = () =>{
- 
+   
   setData(add)
   toast.success("Added to cart", {duration:1000})
+  dispatch(addToCart( price))
   setToggle(true)
 
   
@@ -25,7 +28,7 @@ const handleChange = () =>{
     <div>
       <Navbar cart = {data}/>
       <Toaster position='top-center' reverseOrder={false}></Toaster>
-      <div className='lg:w-[77%] md:w-[80%] mt-4 px-4 lg:px-0 md:px-2 lg:mx-auto md:mx-auto py-6 grid lg:grid-cols-2 grid-cols-1 lg:gap-6'>
+      <div key={1} className='lg:w-[77%] md:w-[80%] mt-4 px-4 lg:px-0 md:px-2 lg:mx-auto md:mx-auto py-6 grid lg:grid-cols-2 grid-cols-1 lg:gap-6'>
       
         <div >
         <img className='h-auto max-w-full rounded-sm'  src={'https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/yhn0pldripesufdzagll'} alt="" loading='lazy' />

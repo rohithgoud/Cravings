@@ -1,0 +1,88 @@
+/* CSS for the modal */
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+
+
+
+
+  /* CSS for the modal content */
+  .modal-content {
+    background-color: rgb(248, 248, 248);
+    margin: 15% auto;
+    padding: 20px 15px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    position: relative;
+  
+   
+  }
+    
+.offer{
+  max-width:450px; 
+  display: flex;
+  flex-direction:column;
+ align-items: flex-start;
+ border-radius: 10px;
+ background: #ffffff;
+ padding: 10px 22px;
+}
+
+
+.main-content{
+background: rgb(247, 220, 125);
+padding: 3px 8px;
+border-radius:5px;
+font-weight: bold;
+margin-right: 2px;
+
+ 
+}
+
+.offer-content{
+  font-weight: bold;
+margin-top: 7px;
+}
+
+.offer-description{
+  margin-top: 4px;
+ text-align: left;
+ font-size: 14px;
+ color: #474747;
+
+}
+
+.offer-btn{
+  margin-top: 4px;
+ color:rgb(249,115,22);
+ font-weight: bold;
+}
+
+  /* CSS for the close button */
+  
+  .close {
+    
+    position:absolute;
+    margin-top: 3px;
+    top: 0;
+    right:9px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

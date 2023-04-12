@@ -2,7 +2,12 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import CheckoutCart from '../components/CheckoutCart'
+
+
 const Checkout = () => {
+
+ 
+
   return (
     <div>
       <Navbar/>

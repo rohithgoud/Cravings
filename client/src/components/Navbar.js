@@ -38,6 +38,7 @@ const Navbar = ({cart}) => {
  <div className='absolute right-4 bg-gray-200 px-4 py-2 rounded-full' onClick={handler}> <span className='cursor-pointer text-2xl font-bold'>X</span></div>
  <Link to='/login'> <button className='relative top-12 left-4 text-md w-[90%] cursor-pointer bg-gray-100 rounded-md px-4 py-3 font-semibold '>Login</button></Link>
   <Link to='/'><button className='relative top-9 left-4 w-[90%]  text-md cursor-pointer bg-black text-white rounded-md px-4 py-3 font-semibold'>Signup</button></Link>
+  
 </div>
 
 
